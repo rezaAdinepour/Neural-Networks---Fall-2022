@@ -8,7 +8,7 @@
 #           ******************************************************
 
 import numpy as np
-from unitStep import unitStep
+from activation_functions import unitStep
 
 def predict(weights, inputs, bias):
     sum = np.dot(weights, inputs) + bias
